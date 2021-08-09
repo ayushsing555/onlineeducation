@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Cairo', sans-serif;
+}
+a{
+    text-decoration: none;
+    
+}
+li{
+    list-style: none;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+ul li a{
+    margin-left: 90px;
+}
+ul li img{
+    margin-left:1px;
+    width: 50px;
+    height: 50px;
+}
+.navvar{
+    background-color: rgb(248, 248, 248);
+    border-radius: 90px;
+
+    
+    /* margin-left: 120px; */
+    /* position: sticky; */
+}
+.navvar:hover{
+    background-color: rgb(255, 88, 83);
+}
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section{
+    background-color: rgb(250, 250, 250);
+    height: auto;
+}
+#btn{
+    background-color: red;
+    border-radius: 50px;
+    height: 40px;
+    width:190px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 45px;
+}
+#btn:hover{
+    font-size: 25px;
+    cursor: pointer;
+}
+h1{
+    margin-top: 12px;
+    color: red;
+    text-shadow:   1px 1px rgb(39, 40, 39);
+}
+#h4{
+    margin-top: 35px;
+    
+}
+.section1{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    margin-top: 60px;
+    align-items: center;
+    height: 360px;
+   
+}
+.section11{
+    width:320px;
+    margin-left: 92px;
+    background-color: blanchedalmond;
+    height: 290px;
+    text-align: center;
+    box-shadow: 0 1px 2px 2px rgb(37, 36, 37);
+}
+.section11 img{
+    margin-top: 18px;
+}
+.section11:hover{
+       border-radius: 70px;
+       background-color: red;
+}
+.about{
+    display: flex;
+    background-color: white;
+}
+#course{
+    width: 700px;
+    height: 700px;
+}
+.p{
+    width: 600px;
+    margin-top: 122px;
+}
+#h1,#b{
+    background-color: white;
+}
+b{
+    color: orange;
+}
+.teacher{
+    display: flex;
+    background-color: white;
+}
+.teacher1{
+    
+        width:320px;
+        margin-left: 92px;
+        background-color: blanchedalmond;
+        height: 390px;
+        text-align: center;
+        box-shadow: 0 2px 1px 1px rgb(255, 208, 0);
+}
+.teacher img{
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+    background: none;
+}
+#tid,#bid{
+    background-color: rgb(240, 243, 236);
+}
+.course1{
+    display: flex;
+}
+.course2{
+    display: flex;
+}
+.course11{
+    margin-top: 42px;
+}
+.course11 img{
+    width: 78px;
+    height: 78px;
+   
+}
+.course11{
+    width:320px;
+    margin-left: 92px;
+    background-color: blanchedalmond;
+    height: 290px;
+    text-align: center;
+    box-shadow: 0 1px 8px 2px rgb(37, 36, 37);
+}
+.course11:hover{
+    border-radius: 70px;
+       background-color: red;
+}
+.course:hover{
+    background-color: aqua;
+}
+#Teacher:hover{
+    background-color: orange;
+}
+.review1{
+    display: flex;
+}
+.reviewimage{
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.review11{
+    width:320px;
+    margin-left: 92px;
+    background-color: blanchedalmond;
+    height: 290px;
+    text-align: center;
+    box-shadow: 0 1px 8px 2px rgb(37, 36, 37);
+}
+.review11{
+    border-radius: 70px;
+    background-color: red;
+}
+.contact1{
+    display: flex;
+}
+.contact11 img{
+    width:300px;
+    height: 300px;
+}
+/* .contact11{
+    width:400px;
+    margin-left: 92px;
+    height: 400px;
+    text-align: center;
+    box-shadow: 0 1px 8px 2px rgb(37, 36, 37);
+    margin-top: 100px;
+} */
+.contact h1,b{
+    margin-top: 190px;
+}
+.contact11 input{
+    width:600px;
+    height: 50px;
+    margin-top: 45px;
+    margin-left: 420px;
+}
+.contact11 input:focus{
+    background-color: rgb(193, 161, 223);
+}
+#message{
+    height: 120px;
+    width:240px
+}
+#submit{
+    width: 120px;
+    background-color: red;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+#submit:hover{
+    background-color: blue;
+}
+
+.contact11{
+    height:600px ;
+}
+.contact{
+    background-color: black;
+}
+.contact11 img{
+    /* height: 320px;
+    width: 320px; */
+    position:static;
+}
+.social img{
+    margin-left: 12px;
+    cursor: pointer;
+}
+.social{
+    margin-top: 5px;
+    background-color: rgb(224, 149, 149);
+}
+.social:hover{
+    background-color: coral;
+}
